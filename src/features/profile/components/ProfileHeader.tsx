@@ -9,7 +9,7 @@ export const ProfileHeader = () => {
     <View style={profileHeaderStyle.headerContainer}>
       <View style={profileHeaderStyle.profile}>
         <PrivacyIcon width={26} strokeWidth={3} stroke={'#000'} />
-        <Text style={profileHeaderStyle.profileName}>Muhfikri</Text>
+        <Text style={profileHeaderStyle.profileName}>muhfikrii</Text>
       </View>
       <HamburgerIcon width={20} stroke={'#000'} strokeWidth={14} />
     </View>

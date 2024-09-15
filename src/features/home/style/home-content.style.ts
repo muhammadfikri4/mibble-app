@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const homeContentStyle = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 50,
+    paddingTop: 20,
     paddingBottom: 20,
   },
 

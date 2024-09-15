@@ -7,6 +7,7 @@ export const profileHeaderStyle = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 20,
+    // backgroundColor: 'red',
   },
   profile: {
     display: 'flex',

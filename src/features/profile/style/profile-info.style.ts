@@ -4,9 +4,13 @@ export const profileInfoStyle = StyleSheet.create({
   container: {
     display: 'flex',
     flexDirection: 'row',
-    gap: 35,
-    justifyContent: 'flex-start',
-    width: '100%',
+    // gap: 35,
+    justifyContent: 'space-between',
+    // justifyContent: 'space-ar',
+    // justifyContent: Platform.OS === 'ios' ? 'center' : 'space-between',
+    alignItems: 'flex-start',
+    // backgroundColor: 'red',
+    paddingLeft: 10,
   },
   photo: {
     width: 75,
@@ -21,7 +25,8 @@ export const profileInfoStyle = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    gap: 50,
+    paddingHorizontal: 10,
+    gap: 35,
   },
   accountInfoSection: {
     display: 'flex',
@@ -47,7 +52,7 @@ export const profileInfoStyle = StyleSheet.create({
   profileDescContainer: {
     display: 'flex',
     flexDirection: 'column',
-    gap: 10,
+    gap: 15,
   },
   profileAction: {
     display: 'flex',
@@ -64,8 +69,9 @@ export const profileInfoStyle = StyleSheet.create({
     justifyContent: 'center',
     gap: 5,
     padding: 5,
+    paddingVertical: 10,
     backgroundColor: '#e1e3e1',
-    borderRadius: 5,
+    borderRadius: 10,
     width: '50%',
   },
   pressableButtonText: {

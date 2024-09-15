@@ -1,21 +1,18 @@
-import {Navbar} from '@/features/_global/components/Navbar';
+import {Layout} from '@/features/_global/screen/Layout';
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {ProfileContent} from '../components/ProfileContent';
 
 export const ProfileScreen = () => {
   return (
-    <View style={style.container}>
+    <Layout style={style.container}>
       <ProfileContent />
-      <Navbar />
-    </View>
+    </Layout>
   );
 };
 
 const style = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingTop: 20,
     paddingHorizontal: 20,
   },
 });
